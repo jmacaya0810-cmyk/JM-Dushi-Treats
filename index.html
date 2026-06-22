@@ -10,14 +10,14 @@
 body{background:#fffaf7;color:#5a3d2b;}
 
 header{position:fixed;width:100%;top:0;background:white;padding:15px 8%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.08);z-index:100;}
-.logo img{height:60px;}
+.brand-name{font-size:1.8rem;font-weight:700;color:#B88445;}
 nav{display:flex;gap:30px;}
 nav a{text-decoration:none;color:#B88445;font-weight:600;transition:color 0.3s;}
 nav a:hover{color:#4CB7B5;}
 
-.hero{height:100vh;display:flex;justify-content:center;align-items:center;text-align:center;background:linear-gradient(135deg, #fffaf7 0%, #f5e6d3 100%);padding-top:80px;}
-.hero-content h1{font-size:3.5rem;color:#B88445;margin-bottom:15px;}
-.hero-content p{font-size:1.3rem;color:#5a3d2b;margin-bottom:30px;}
+.hero{height:100vh;display:flex;justify-content:center;align-items:center;text-align:center;background:linear-gradient(rgba(255,250,247,.75),rgba(245,230,211,.75)),url('https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=1200&h=1200&fit=crop');background-size:cover;background-position:center;padding-top:80px;}
+.hero-content h1{font-size:3.5rem;color:#B88445;margin-bottom:15px;text-shadow:2px 2px 4px rgba(255,255,255,.8);}
+.hero-content p{font-size:1.3rem;color:#5a3d2b;margin-bottom:30px;text-shadow:1px 1px 2px rgba(255,255,255,.8);}
 .btn{display:inline-block;background:#4CB7B5;color:white;padding:15px 35px;border-radius:30px;text-decoration:none;margin-top:20px;font-weight:600;transition:background 0.3s;}
 .btn:hover{background:#3da5a3;}
 .btn-secondary{background:#B88445;}
@@ -57,7 +57,7 @@ footer{background:#B88445;color:white;text-align:center;padding:30px;}
 
 @media(max-width:768px){
 header{padding:10px 5%;}
-.logo img{height:50px;}
+.brand-name{font-size:1.4rem;}
 nav{flex-direction:column;gap:15px;position:absolute;top:70px;left:0;right:0;background:white;padding:20px;display:none;}
 header.active nav{display:flex;}
 .hero-content h1{font-size:2.5rem;}
@@ -71,7 +71,7 @@ section{padding:50px 5%;}
 <body>
 
 <header>
-<div class="logo"><img src="logo.png" alt="JM Dushi Treats"></div>
+<div class="brand-name">JM Dushi Treats 🍪</div>
 <nav>
 <a href="#about">Over Ons</a>
 <a href="#menu">Menu</a>
@@ -136,7 +136,8 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 <div class="menu-grid">
 
 <div class="card">
-<img src="https://i0.wp.com/annabellas.nl/wp-content/uploads/2025/04/Sessie-zonder-titel0039-Verbeterd-NR.jpg?resize=683%2C1024&amp;ssl=1" alt="Dikke Lotus Speculoos koekjes met witte chocolade - Annabella&#39;s Foodblog"/>
+<img src="https://i0.wp.com/annabellas.nl/wp-content/uploads/2025/04/Sessie-zonder-titel0039-Verbeterd-NR.jpg?resize=683%2C1024&ssl=1" alt="Dushi Lotus Dream"/>
+<div class="card-content">
 <h3>Dushi Lotus Dream</h3>
 <p>Een zachte, dikke koekje gevuld met witte chocolade en afgewerkt met romige Biscoff drizzle.</p>
 <div class="price">NAf 4,50</div>
@@ -144,7 +145,7 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 </div>
 
 <div class="card">
-<img src="https://houseofnasheats.com/wp-content/uploads/2019/01/Red-Velvet-White-Chocolate-Chip-Cookies-9.jpg" alt="Red Velvet Cake Cookies"/>
+<img src="https://houseofnasheats.com/wp-content/uploads/2019/01/Red-Velvet-White-Chocolate-Chip-Cookies-9.jpg" alt="Red Velvet Crunch"/>
 <div class="card-content">
 <h3>Red Velvet Crunch</h3>
 <p>Zachte red velvet cookie met stukjes witte chocolade. Een elegante keuze.</p>
@@ -153,7 +154,7 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 </div>
 
 <div class="card">
-<img src="https://i0.wp.com/annabellas.nl/wp-content/uploads/2025/06/DSC_3673.jpg?fit=3132%2C4698&amp;ssl=1" alt="Dikke chewy Oreo koekjes met witte chocolade - Annabella&#39;s Foodblog"/>
+<img src="https://i0.wp.com/annabellas.nl/wp-content/uploads/2025/06/DSC_3673.jpg?fit=3132%2C4698&ssl=1" alt="Oreo Explosion"/>
 <div class="card-content">
 <h3>Oreo Explosion</h3>
 <p>Vol met stukken van heerlijke Oreo koekjes. Een favoriet voor Oreo-liefhebbers.</p>
@@ -162,7 +163,7 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 </div>
 
 <div class="card">
-<img src="https://www.dekokendezussen.nl/wp-content/uploads/2017/10/13-IMG_9910.jpg" alt="M&amp;M Koekjes recept - de Kokende Zussen"/>
+<img src="https://www.dekokendezussen.nl/wp-content/uploads/2017/10/13-IMG_9910.jpg" alt="M&M Cookie"/>
 <div class="card-content">
 <h3>M&M Cookie</h3>
 <p>Kleurrijk, knapperig en heerlijk. Brengt kleur en vrolijkheid naar je dag.</p>
@@ -171,7 +172,7 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 </div>
 
 <div class="card">
-<img src="https://images.squarespace-cdn.com/content/v1/66ad82beea70765875fbf2f9/57179559-1983-488c-8988-a90b09d8c606/IMG_2091+%282%29.jpg?format=1000w" alt="Fruity Pebbles Cookies — Cheat Treats LLC"/>
+<img src="https://images.squarespace-cdn.com/content/v1/66ad82beea70765875fbf2f9/57179559-1983-488c-8988-a90b09d8c606/IMG_2091+%282%29.jpg?format=1000w" alt="Carnival Crunch"/>
 <div class="card-content">
 <h3>Carnival Crunch</h3>
 <p>Een vrolijke cookie met witte chocolade en kleurrijke Fruity Pebbles.</p>
@@ -180,16 +181,16 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 </div>
 
 <div class="card">
-<img src="https://theseasidebaker.com/wp-content/uploads/2023/06/strawberry-cheesecake-cookies.jpg" alt="Strawberry Cheesecake Stuffed Cookies"/>
+<img src="https://theseasidebaker.com/wp-content/uploads/2023/06/strawberry-cheesecake-cookies.jpg" alt="Strawberry Cheesecake"/>
 <div class="card-content">
 <h3>Strawberry Cheesecake</h3>
-<p>Zachte vanillekoekje met romige cheesecake stukjes,witte chocolade en aardbeienstukjes.</p>
+<p>Zachte vanillekoekje met romige cheesecake stukjes, witte chocolade en aardbeienstukjes.</p>
 <div class="price">NAf 4,50</div>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.squarespace-cdn.com/content/v1/56ca92b82e83f84324967441/6da0780a-c2ad-4a6f-b4e7-05ca26a0b38b/chocolate+cookies+with+crunchy+pistachio+fillo.jpg" alt="Dubai Chocolate Cookies with a Crunchy Pistachio and Fillo Filling —  Antoniou Fillo Pastry"/>
+<img src="https://images.squarespace-cdn.com/content/v1/56ca92b82e83f84324967441/6da0780a-c2ad-4a6f-b4e7-05ca26a0b38b/chocolate+cookies+with+crunchy+pistachio+fillo.jpg" alt="Dubai Chocolate"/>
 <div class="card-content">
 <h3>Dubai Chocolate</h3>
 <p>Pistachio en karamel smaak met een luxe twist. Een internationale delicatesse.</p>
@@ -198,7 +199,7 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 </div>
 
 <div class="card">
-<img src="https://www.365daysofbakingandmore.com/wp-content/uploads/2023/02/Funfetti-Birthday-Cake-Cookies-PIN3.jpg" alt="Funfetti Birthday Cake Cookies | 365 Days of Baking and More"/>
+<img src="https://www.365daysofbakingandmore.com/wp-content/uploads/2023/02/Funfetti-Birthday-Cake-Cookies-PIN3.jpg" alt="Fruit Pebbles"/>
 <div class="card-content">
 <h3>Fruit Pebbles</h3>
 <p>Kleurrijke, fruity cookie gevuld met Fruit Pebbles cereal. Speels en lekker!</p>
@@ -218,13 +219,13 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 
 <div class="review-card">
 <div class="stars">⭐⭐⭐⭐⭐</div>
-<p>"De cookies van JM Dushi Treats zijn echt verrukkelijk! Ik bestel al maanden wekelijks en ze zijn altijd vers en lekker. De Chocolate Chip is mijn favoriet. Aanrader!"</p>
+<p>"De cookies van JM Dushi Treats zijn echt verrukkelijk! Ik bestel al maanden wekelijks en ze zijn altijd vers en lekker. De Dushi Lotus Dream is mijn favoriet. Aanrader!"</p>
 <div class="author">- Maria S.</div>
 </div>
 
 <div class="review-card">
 <div class="stars">⭐⭐⭐⭐⭐</div>
-<p>"Geweldig voor verjaardagen! Ik heb ze voor een feestje van 30 personen besteld en iedereen was blij. De Coconut Paradise was een groot succes. Super service!"</p>
+<p>"Geweldig voor verjaardagen! Ik heb ze voor een feestje van 30 personen besteld en iedereen was blij. De Strawberry Cheesecake was een groot succes. Super service!"</p>
 <div class="author">- Juan M.</div>
 </div>
 
@@ -248,7 +249,7 @@ JM Dushi Treats staat klaar om jouw dag een beetje zoeter te maken.<br><br>
 
 <div class="review-card">
 <div class="stars">⭐⭐⭐⭐⭐</div>
-<p>"JM Dushi Treats heeft me gered met een last-minute bestelling voor een babyshower. Ze bakten vers en leverden op tijd. De Triple Chocolate was een hit. Dankjewel!"</p>
+<p>"JM Dushi Treats heeft me gered met een last-minute bestelling voor een babyshower. Ze bakten vers en leverden op tijd. De Carnival Crunch was een hit. Dankjewel!"</p>
 <div class="author">- Carmen D.</div>
 </div>
 
